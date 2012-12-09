@@ -2,12 +2,15 @@
 
 <head>
 <title>Street Facing</title>
+<link rel="stylesheet" href="css/main.css"></link>
 </head>
 
 <body>
 
-<div id="main-street-view"></div>
-<div id="pano"></div>
+<div id="main_street_view"></div>
+
+<canvas id="inputCanvas" width="320" height="240" style="display:none"></canvas>
+<video id="inputVideo" width="106" height="80" autoplay loop></video>
 
 <div data-role="footer">
 
@@ -15,6 +18,8 @@
 <script src="deps/jquery.min.js"></script>
 <script src="deps/underscore-min.js"></script>
 <script src="deps/backbone-min.js"></script>
+
+<script src="deps/headtrackr.js"></script>
 
 <script src="js/views/main.js"></script>
 <script src="js/base.js"></script>
