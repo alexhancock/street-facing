@@ -1,7 +1,7 @@
 Street Facing
 ==========
 
-![Street Facing Screenshot](http://dl.dropbox.com/u/12445335/Screenshots/jr.png)
+![Street Facing Screenshot](https://dl.dropbox.com/u/12445335/street-facing.png)
 
 **Street Facing** is an experimental application that runs in the browser and allows you to control the POV on Google Street View with movements of your face and head.
 
