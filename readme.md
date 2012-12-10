@@ -1,4 +1,4 @@
-Street Facing
+Street Facing - [Demo](http://alexhancock.com/street-facing/)
 ==========
 
 ![Street Facing Screenshot](https://dl.dropbox.com/u/12445335/street-facing.png)
