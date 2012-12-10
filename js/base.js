@@ -4,5 +4,5 @@
     });
 
     $(window).on('load', function(e){
-        mainView.render();
+        mainView.render(false, true);
     });

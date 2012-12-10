@@ -24,6 +24,9 @@ body {
     top: 20px;
     right: 20px;
 }
+#searchInput {
+    width: 250px;
+}
 #headtrackerMessageDiv {
     top: 200px !important;
     font-weight: bold !important;
