@@ -2,6 +2,11 @@
 
         initialize:function(){
             _.bindAll(this);
+
+            var sfv = this;
+            $(window).on('load', function(e){
+                sfv.render(false, true);
+            });
         },
 
         render: function(starting_loc, new_tracker) {
