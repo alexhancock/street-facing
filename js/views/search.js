@@ -28,8 +28,6 @@
         panoramaCallback: function(data, status){
             if (status == google.maps.StreetViewStatus.OK) {
                 entryPanoId = data.location.pano;
-
-                console.log(data.location);
                 this.mainView.render(data.location.latLng);
             } else {
                 alert("Sorry, I can't find street view data. Try somewhere nearby?");

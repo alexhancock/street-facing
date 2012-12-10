@@ -11,7 +11,7 @@
 
         render: function(starting_loc, new_tracker) {
             if (!starting_loc){
-                starting_loc = new google.maps.LatLng(51.5018, -0.1406); // Set a default - On Tower Bridge in London
+                starting_loc = new google.maps.LatLng(40.78428, -73.95432399999999); // Set a default - On Park Ave in NYC
             }
 
             this.panoramaOptions = {
