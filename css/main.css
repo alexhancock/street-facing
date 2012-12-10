@@ -1,5 +1,4 @@
 body {
-    padding: 0;
     margin: 0;
 }
 #main_street_view {
@@ -12,6 +11,20 @@ body {
 #inputVideo {
     position: absolute;
     z-index: 100000000000000000;
-    top: 60px;
-    left: 0;
+    top: 10px;
+    left: 20px;
+    width: 80px;
+    height: 80px;
+    padding: 0;
+    margin: 0;
+}
+#searchForm {
+    position: absolute;
+    z-index: 100000000000000000;
+    top: 20px;
+    right: 20px;
+}
+#headtrackerMessageDiv {
+    top: 200px !important;
+    font-weight: bold !important;
 }

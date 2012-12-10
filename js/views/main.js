@@ -1,10 +1,18 @@
     var Street_Facing_View = Backbone.View.extend({
         render: function() {
             _.bindAll(this);
-            
+
             var fenway = new google.maps.LatLng(42.345573,-71.098326);
             var mapOptions = { center: fenway, zoom: 14, mapTypeId: google.maps.MapTypeId.ROADMAP };
-            var panoramaOptions = { position: fenway, pov: { heading: 180, pitch: 10, zoom: 1 }};
+            var panoramaOptions = {
+                position: fenway,
+                pov: { heading: 180, pitch: 0, zoom: 1 },
+                scrollwheel: false,
+                zoomControl: false,
+                panControl: false,
+                linksControl: false,
+                addressControl: false
+            };
             var map = new google.maps.Map(this.el, mapOptions);
             var panorama = new google.maps.StreetViewPanorama(this.el, panoramaOptions);
             map.setStreetView(panorama);
