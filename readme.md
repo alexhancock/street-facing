@@ -11,7 +11,7 @@ It is built on top of a few things...
 
 * The Google Maps V3 JavaScript [API](https://developers.google.com/maps/documentation/javascript/), including the Places [library](https://developers.google.com/maps/documentation/javascript/places).
 * An open source JavaScript library for tracking head and face movement called [headtrackr.js](https://github.com/auduno/headtrackr)
-* (It also depends on [underscore.js](http://underscorejs.org) and [backbone.js](http://backbonejs.org)
+* (It also depends on [underscore.js](http://underscorejs.org) and [backbone.js](http://backbonejs.org))
 
 ### Browser Support ###
 
