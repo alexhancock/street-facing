@@ -1,11 +1,9 @@
-Street Facing - [Demo](http://alexhancock.github.com/street-facing/)
+Street Facing - [Demo](https://alexhancock.github.io/street-facing/)
 ==========
-
-![Street Facing Screenshot](https://dl.dropbox.com/u/12445335/street-facing.png)
 
 **Street Facing** is an experimental application that runs in the browser and allows you to control the POV on Google Street View with movements of your face and head.
 
-You can check out a demo of it [here](http://alexhancock.github.com/street-facing/).
+You can check out a demo of it [here](https://alexhancock.github.io/street-facing/).
 
 It is built on top of a few things...
 
